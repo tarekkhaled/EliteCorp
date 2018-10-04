@@ -1,0 +1,47 @@
+/* 
+ First Color : #08526d
+ Second Color : #ec1c23 
+ */
+
+ /* start upper bar */
+
+ .upper-bar {
+     background-color: #08526d ;
+     color : #fff;
+     padding: 10px;
+ }
+ .upper-bar span {
+     color: #bfc6c9 ;
+ }
+ .upper-bar #get-quote {
+     display: inline-block;
+     border: 1px solid #ec1c23 ;
+     padding: 2px 10px ;
+     margin-left: 20px;
+
+ }
+ /* End upper bar */
+
+ /* Start Navbar */
+ .navbar-brand > span {
+     font-size: 40px;
+ }
+ .navbar-brand span:first-child {
+     color : #08526d  ;
+     font-weight: bold ;
+ }
+ .navbar-brand span:last-child {
+     color : #ec1c23 ;
+ }
+ .navbar-nav .nav-link {
+     font-size:17px;
+     text-transform:uppercase;
+     margin-left: 20px;
+     color: #08526d !important ;
+     font-weight: 600 ;
+ }
+
+ .navbar-nav .active >.nav-link {
+     color : #ec1c23 !important ;
+ }
+ /* End Navbar */
