@@ -120,4 +120,41 @@
     color: #a69f9fd4;
  }
  
- /* */
+ /* start of overiew */
+ .overview {
+     background-color: #f0f5f7;
+     padding: 100px;
+ }
+ .overview h2 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.overview p {
+    line-height: 2;
+    font-size: 20px;
+    width: 89%;
+    margin: 0px auto 0px;
+    letter-spacing: 1.3px;
+    color: #686262;
+}
+.overview h4 {
+    letter-spacing: 2.4px;
+    color: #b6b6b6;
+    padding: 5px 0px 1px;
+    font-size: 26px;
+    font-weight: normal;
+}
+.overview button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 5px solid #ed1d24;
+    background-color: #ed1d24;
+    color: #FFF;
+    /* border-radius: 15px; */
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+
+}
