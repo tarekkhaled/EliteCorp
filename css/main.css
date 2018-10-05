@@ -3,6 +3,10 @@
  Second Color : #ec1c23 
  */
 
+ body {
+     height: 2000px;
+ }
+
  /* start upper bar */
 
  .upper-bar {
@@ -77,6 +81,43 @@
     height: 7px;
     cursor: pointer ;
 }
+.slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.slider .carousel-inner h1 {
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 70px;
+    max-width: 900px;
+    left: 100px;
+}
 
+.slider .carousel-inner h1 span {
+    background-color: rgb(177, 57, 10);
+    margin-top: 2px;
+}
  /*End Slider */
+
+ .features {
+     padding: 50px 0 ;
+ }
+
+ .features i {
+    background-color: #ec1c23;
+    padding: 15px;
+    margin-bottom: 13px;
+    color: #FFF;
+ }
+
+ .features h3 {
+     color: #08526d ;
+ }
+ .features p {
+    color: #a69f9fd4;
+ }
+ 
+ /* */
